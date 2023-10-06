@@ -1,0 +1,46 @@
+{
+  "name": "template-react-ui",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-cookie-consent": "^6.2.3",
+    "react-dom": "^17.0.2",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
